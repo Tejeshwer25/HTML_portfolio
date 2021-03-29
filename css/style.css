@@ -1,0 +1,125 @@
+@import url(./_variables.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+    padding: 0.2rem 0.5rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.header_area .main-menu .navbar {
+    padding: 0.5rem 10rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar .container-fluid .collapse .navbar-nav .nav-item .active{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar .container-fluid .collapse .navbar-nav .nav-item .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    background-clip: text;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--font-family-2);
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 4.5rem;
+    font-family: var(--font-family-1);
+    color: var(--title-color);
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--font-family-2);
+}
+
+.banner-img {
+    margin-top: 25px;
+}
+
+.site-buttons {
+    margin-top: 5vh;
+}
+
+.site-buttons .flex-wrap .button {
+    height: 60px;
+    width: 150px;
+    margin-right: 4vw;
+}
+
+.primary-button {
+    background: var(--gradient-color);
+    color: white;
+}
+
+.site-buttons .flex-wrap .secondary-button {
+    border: 2px solid var(--border-color);
+}
+
+.primary-button:hover {
+    border: 2px solid var(--border-color);
+    background: white;
+    color: black;
+}
+
+.site-buttons .flex-wrap .secondary-button:hover {
+    border: none;
+    background: var(--gradient-color);
+    color: white;
+}
+
+.intro-area{
+    margin-top: 30vh;
+}
+
+.intro-area .container .row .intro-text-container h2 {
+    font-family: var(--font-family-1);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.intro-area .container .row .intro-text-container .dummy-text {
+    margin: 5vh 0px;
+}
+
+.intro-area .container .row .intro-text-container .dummy-text p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    font-family: var(--font-family-2);
+}
+
+.intro-area .container .row .intro-text-container .primary-button {
+    padding: 10px 2vw;
+}
