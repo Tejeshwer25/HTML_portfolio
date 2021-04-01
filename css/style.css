@@ -5,6 +5,8 @@
     padding: 0px;
 }
 
+
+
 .header_area .main-menu .navbar .navbar-brand {
     padding: 0.2rem 0.5rem;
     color: var(--primary-color);
@@ -77,6 +79,8 @@
     height: 60px;
     width: 150px;
     margin-right: 4vw;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .primary-button {
@@ -122,4 +126,93 @@
 
 .intro-area .container .row .intro-text-container .primary-button {
     padding: 10px 2vw;
+}
+
+.skill-area {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.skill-area h2{
+    font-family: var(--font-family-1);
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.skill-area .skills-text p {
+    font-family: var(--font-family-2);
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+.skill-area .row {
+    margin-top: 20px;
+    justify-content:center;
+}
+
+.skill-area .row .card {
+    width: 250px;
+    margin: 1vh 1vw;
+}
+
+.skill-logo{
+    width: 200px;
+    height: 35vh;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: var(--shadow-color);
+}
+
+.projects {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.projects .row {
+    margin-top: 7vh ;
+    justify-content: space-evenly;
+}
+
+.projects h3 {
+    font-family: var(--font-family-1);
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.project-skill {
+    font-family: var(--font-family-2);
+    font-size: 1.2rem;
+}
+
+.projects .row .card {
+    width: 500px;
+}
+
+.projects .row .card .card-img-top {
+    height: 30vh;
+    width: 100%;
+}
+
+
+.red-heart {
+    color: red;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: right;
+    font-family: var(--font-family-2);
+    font-size:1.5rem;
+    font-weight: 600;
+    padding: 10px;
+    background-color: var(--title-color);
+    border-top-left-radius: 70%;
+}
+
+.footer div a {
+    margin: 0px 10px;
 }
