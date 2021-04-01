@@ -1,7 +1,0 @@
-Navbar:- 1) To create the navbar go to bootstrap and pick the code for navigation menu from there. And then modify it accordin to your need.
-            a) To align the links to right just create a new div with class "mr-auto" befor ul.
-            b) Give some padding, fonts, text-transform, font-weight, color to nav-links and navbar.
-            c) CSS variables can be created using :root{
-                    --variable_name: value;
-                }
-            d) 
